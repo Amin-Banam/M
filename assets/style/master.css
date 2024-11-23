@@ -1,0 +1,311 @@
+body{
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.171);
+    height: 120px;
+    background-color: rgba(255, 166, 0, 0.603);
+}
+.logo{
+  width: 15%;
+  height: 100%;
+  display: flex;
+}
+.logo>figure{
+    width: 100%;
+    height: 100%;
+}
+.logo>figure>a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+.logo>figure>a>image{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.Menu{
+    width: 85%;
+    margin-top: -1%;
+}
+.Menu1{
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+.Menu1>div:nth-of-type(1){
+    justify-content: start;
+    font-size: 14px;
+}
+.Menu1>div:nth-of-type(2){
+    justify-content: end;
+    font-size: 14px;
+}
+.Menu1>div:nth-of-type(1)>li{
+    width: 100px;
+    height: 0;
+    display: flex;
+    justify-content: start;
+}
+.Menu1>div:nth-of-type(2)>li{
+    width: 100px;
+    display: flex;
+    justify-content: end;
+}
+.Menu1>div>li>a{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Menu2{
+    display: flex;
+    padding-left: 12%;
+}
+.Menu2>div{
+    font-size: 14px;
+    height: 50%;
+}
+.Menu2>div>li{
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+}
+.Menu2>div>li>a{
+    display: flex;
+    justify-content: space-between;
+}
+/* پایان هدر */
+.content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.content1{
+    width: 100%;
+    display: flex;
+}
+.content2{
+    width: 60%;
+}
+.content2>figure{
+    padding: 0 5%;
+    margin-top: 10%;
+}
+.content2>figure>div{
+    display: flex;
+    width: 200px;
+    height: 120px;
+}
+/* پایان تصویر اول*/
+.content3{
+    display: flex;
+    width: 40%;
+    padding: 0 2% ;   
+}
+.content3>article{
+    flex-direction: column;
+    padding: 0 5%;
+    margin-top: 20%;
+    margin-right: 20%;
+}
+.content3>article>p{
+    text-align: justify;
+}
+.content3>article>p:nth-of-type(2)
+{
+    font-size: 10px;
+}
+.content3>article>ul{
+    width: 200px;
+    height: 50px;
+    border: 1px solid red;
+    background-color: orange;
+    margin-top: 3%;
+}
+.content3>article>ul>li
+{
+    width: 100%;
+    height: 100%;
+}
+.content3>article>ul>li>a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+/* پایان متن های سمت راست اول*/
+.content4{
+    width: 100%;
+    display: flex;
+}
+.content5{
+    width: 60%;
+}
+.content5>figure{
+    padding: 0 5%;
+    margin-top: 10%;
+}
+.content5>figure>div{
+    display: flex;
+    width: 200px;
+    height: 120px;
+}
+/* پایان تصویر دوم*/
+.content6{
+    display: flex;
+    width: 40%;
+    padding: 0 2% ;   
+}
+.content6>article{
+    flex-direction: column;
+    padding: 0 5%;
+    margin-top: 20%;
+    margin-right: 20%;
+}
+.content6>article>p{
+    text-align: justify;
+}
+.content6>article>p:nth-of-type(2)
+{
+    font-size: 10px;
+}
+.content6>article>ul{
+    width: 200px;
+    height: 50px;
+    border: 1px solid red;
+    background-color: orange;
+    margin-top: 3%;
+}
+.content6>article>ul>li
+{
+    width: 100%;
+    height: 100%;
+}
+.content6>article>ul>li>a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+/* پایان متن های سمت راست دوم*/
+.content7{
+    width: 100%;
+    display: flex;
+}
+.content8{
+    width: 60%;
+}
+.content8>figure{
+    padding: 0 5%;
+    margin-top: 10%;
+}
+.content8>figure>div{
+    display: flex;
+    width: 200px;
+    height: 120px;
+}
+/* پایان تصویر سوم*/
+.content9{
+    display: flex;
+    width: 40%;
+    padding: 0 2% ;   
+}
+.content9>article{
+    flex-direction: column;
+    padding: 0 5%;
+    margin-top: 20%;
+    margin-right: 20%;
+}
+.content9>article>p{
+    text-align: justify;
+}
+.content9>article>ul{
+    width: 300px;
+    height: 50px;
+    border: 1px solid red;
+    background-color: orange;
+    margin-top: 3%;
+}
+.content9>article>ul>li
+{
+    width: 100%;
+    height: 100%;
+}
+.content9>article>ul>li>a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* پایان متن های سمت راست سوم*/
+.list{
+    display: flex;
+    width: 100%;
+    padding: 0 4%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.377);
+}
+.list1,.list2,.list3,.list4{
+    margin-top: 9%;
+    width: 25%;
+    margin-bottom: 2%;   
+}
+.list1{
+    padding: 0 7%;
+}
+.list1>ul>p{
+    padding-bottom: 12%;
+}
+.list1>ul>li>a:nth-last-of-type(){
+    border-bottom: none;
+}
+.list2{
+    padding: 0 6%;
+}
+.list2>ul>p{
+    padding-bottom: 12%;
+}
+.list2>ul>li>a:nth-last-of-type(){
+    border-bottom: none;
+}
+.list3{
+    padding: 0 7%;
+}
+.list3>ul>p{
+    padding-bottom: 12%;
+}
+.list3>ul>li>a{
+    width: 100px;
+}
+.list3>ul>li>a:nth-last-of-type(){
+    border-bottom: none;
+}
+.list4{
+    padding: 0 7%;
+    padding-bottom: 12%;
+}
+.list4>ul>p{
+    padding-bottom: 12%;
+}
+.list4>ul>li>a:nth-last-of-type(){
+    border-bottom: none;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(255, 166, 0, 0.603);
+}
